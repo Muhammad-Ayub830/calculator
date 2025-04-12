@@ -53,7 +53,7 @@ var mode_btn = document.querySelectorAll(".icons i");
                 document.querySelectorAll(".unique").forEach(function(abc){
                     abc.style.backgroundColor = "#19ACFF"
                 })
-               
+               document.querySelector(".ball").style.display= "none"
             }else if(btn == mode_btn[1]){
                document.getElementById("res").style.color = "#FFFFFF"
                 document.getElementById("calc").style.backgroundColor = "#17181A"
@@ -72,7 +72,7 @@ var mode_btn = document.querySelectorAll(".icons i");
                 document.querySelectorAll(".unique").forEach(function(abc){
                     abc.style.backgroundColor = "#1991FF"
                 })
-
+document.querySelector(".ball").style.display= "none"
             }else{
                  document.querySelector(".ball").style.display= "block"
               document.getElementById("calc").style.backgroundColor = "#f7f8fb85";
