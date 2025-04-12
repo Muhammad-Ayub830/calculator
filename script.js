@@ -74,6 +74,7 @@ var mode_btn = document.querySelectorAll(".icons i");
                 })
 
             }else{
+                 document.querySelector(".ball").style.display= "block"
               document.getElementById("calc").style.backgroundColor = "#f7f8fb85";
               document.getElementById("calc").style.backdropFilter = "blur(50px)";
               document.querySelectorAll(".width div").forEach(function(a){
@@ -82,14 +83,15 @@ var mode_btn = document.querySelectorAll(".icons i");
                 a.style.border = ".1px solid #ffffff5d";
             })
             document.querySelectorAll(".slight").forEach(function(abc){
-                abc.style.backgroundColor = "#add7ff6e"
+                abc.style.backgroundColor = "#27a2f569"
                 abc.style.color = "#29A8FF"
             })
             document.querySelectorAll(".unique").forEach(function(abc){
-                abc.style.backgroundColor = "#ADD8FF"
+                abc.style.backgroundColor = "#27a3f5da"
             })
             }
              document.getElementById("res").style.color = "#17181A"
+            
         })
       
     })

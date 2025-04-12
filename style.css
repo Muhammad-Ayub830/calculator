@@ -29,8 +29,9 @@ body{
     height: 700px;
     position: absolute;
     z-index: -1;
-    left: 30%;
+    left: 34%;
     top: 6%;
+    display: none;
 }
 .container .calculator{
     background-color: #17181A;
